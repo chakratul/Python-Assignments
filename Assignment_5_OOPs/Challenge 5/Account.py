@@ -28,8 +28,7 @@ class SavingsAccount(Account):
 
 
 
-obj1 = Account()
-obj1.Balance = 2000
+obj1 = Account(Balance = 2000)
 obj1.getBalance()
 print(obj1.deposit(500))
 #obj = SavingsAccount("Ashish",2000,5)
